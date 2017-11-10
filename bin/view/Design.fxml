@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainController">
+   <children>
+      <Button layoutX="14.0" layoutY="18.0" mnemonicParsing="false" onAction="#addNode" text="ADD NODE" />
+      <Button layoutX="90.0" layoutY="18.0" mnemonicParsing="false" onAction="#addEdge" text="ADD EDGE" />
+      <Button layoutX="291.0" layoutY="18.0" mnemonicParsing="false" onAction="#dragNode" text="MOVE NODE" />
+      <TextField fx:id="text" layoutX="212.0" layoutY="18.0" prefHeight="25.0" prefWidth="67.0" />
+      <Text layoutX="176.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="value :" />
+      <Button layoutX="528.0" layoutY="18.0" mnemonicParsing="false" onAction="#solve" text="SOLVE" />
+      <Label fx:id="message" layoutX="353.0" layoutY="55.0" prefHeight="17.0" prefWidth="187.0" />
+      <Button layoutX="402.0" layoutY="18.0" mnemonicParsing="false" onAction="#editName" prefHeight="25.0" prefWidth="67.0" text="Edit" textAlignment="CENTER" />
+   </children>
+</Pane>
